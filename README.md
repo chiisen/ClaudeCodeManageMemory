@@ -1,6 +1,10 @@
 # ClaudeCodeManageMemory
 Claude Code Manage Memory
 
+在完成重大任務、實現功能特性、做出架構決策後，主動喚起 Claude Code - Sub Agent ,並且寫入至 progress.md。
+
+---
+
 ![ClaudeCode01](./images/ClaudeCode01.png)
 
 ---
