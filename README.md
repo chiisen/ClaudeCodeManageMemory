@@ -1,6 +1,12 @@
 # ClaudeCodeManageMemory
 Claude Code Manage Memory
 
+![ClaudeCode01](./images/ClaudeCode01.png)
+
+---
+
+![ClaudeCode02](./images/ClaudeCode02.png)
+
 ---
 
 ## 大模型記憶系統架構
