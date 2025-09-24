@@ -13,6 +13,48 @@ Claude Code Manage Memory
 
 ---
 
+## 安裝 Claude Code
+Node.js 20
+```bash
+# 全局安装 Claude Code
+npm install -g @anthropic-ai/claude-code --ignore-scripts
+# 运行
+npx win-claude-code@latest
+```
+1. 使用命令行更新：
+   - 執行 `claude update` 命令可以直接更新到最新版本。
+   - 也可以用 `npm install -g @anthropic-ai/claude-code@latest` 手動安裝最新版本。
+   
+2. 檢查版本與健康狀況：
+   - 使用 `claude --version` 查看當前版本。
+   - 使用 `claude doctor` 進行診斷和故障排除。
+
+3. 建立 API token
+
+4. 回到終端機，輸入 `claude` 前先設定以下 api 以及 base url 設定
+使用 Linux 或 Windows 環境:
+```bash
+export ANTHROPIC_AUTH_TOKEN=sk-... 
+export ANTHROPIC_BASE_URL=https://anyrouter.top
+```
+使用 PowerShell:
+可以用 VSCode 改設定:
+```bash
+code $profile
+```
+⭐新增下面兩行指令:
+```
+$Env:ANTHROPIC_AUTH_TOKEN = 'sk-...'
+$Env:ANTHROPIC_BASE_URL = 'https://anyrouter.top'
+
+# Windows 版本 bash 報錯問題
+$Env:CLAUDE_CODE_GIT_BASH_PATH = "C:\Program Files\Git\git-bash.exe"
+```
+sk-...請換成第 3 點生成的 key
+5. 輸入 `claude` 後就能開始用了,設置正確後會顯示 API Base URL: https://anyrouter.top 就表示在使用自己的 API Key了
+
+---
+
 ## 大模型記憶系統架構
 主代理 + Recorder sub-agent 雙 Agent 架構
 1. 規則層 Rule Layer
