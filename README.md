@@ -55,6 +55,22 @@ sk-...請換成第 3 點生成的 key
 
 ---
 
+# Output Style
+```bash
+ Choose your preferred output style:
+│ This changes how Claude Code communicates with you
+│ Use /output-style:new to create custom output styles
+│ ❯ 1. Default       Claude completes coding tasks efficiently and provides concise responses
+│   2. Explanatory   Claude explains its implementation choices and codebase patterns 
+│   3. Learning      Claude pauses and asks you to write small pieces of code for hands-on practice 
+```
+## Default
+![ClaudeCodex_Output_Style_default](./images/ClaudeCodex_Output_Style_default.png)
+
+
+![ClaudeCode_Ouptup_style_Explanatory](./images/ClaudeCode_Ouptup_style_Explanatory.png)
+---
+
 ## 大模型記憶系統架構
 主代理 + Recorder sub-agent 雙 Agent 架構
 1. 規則層 Rule Layer
