@@ -71,6 +71,10 @@ sk-...請換成第 3 點生成的 key
 ![ClaudeCode_Ouptup_style_Explanatory](./images/ClaudeCode_Ouptup_style_Explanatory.png)
 ---
 
+## 自定義
+![Output_Style_My](./images/Output_Style_My.png)
+
+
 ## 大模型記憶系統架構
 主代理 + Recorder sub-agent 雙 Agent 架構
 1. 規則層 Rule Layer
